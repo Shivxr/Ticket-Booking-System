@@ -10,7 +10,7 @@ public class Avail {
     public int c;
     public int avail() throws Exception {
         c=0;
-        pth=Paths.get("src/Seats.txt");
+        pth=Paths.get("Seats.txt");
         String s=new String(Files.readAllBytes(pth));
         arr=s.split(" ");
         for(int i=0;i<arr.length;i++){
