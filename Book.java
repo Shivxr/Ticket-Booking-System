@@ -17,7 +17,7 @@ public class Book extends Avail  {
         Scanner sc = new Scanner(System.in);
         int ln = arr.length;
         int tc = 0;
-        pth=Paths.get("src/Seats.txt");
+        pth=Paths.get("Seats.txt");
         String s=new String(Files.readAllBytes(pth));
         arr=s.split(" ");
         for(int i=0;i<arr.length;i++){
